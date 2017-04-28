@@ -1,0 +1,4 @@
+In C you can print some text.
+In C you can create class.
+In C you can add item to list.
+In C you can create dictionary.

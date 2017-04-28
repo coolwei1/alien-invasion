@@ -1,0 +1,180 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{bf8ea858-c64e-4c67-877d-abd2ec7f933b}</ProjectGuid>
+    <ProjectHome />
+    <StartupFile>alien_invasion\alien_invasion.py</StartupFile>
+    <SearchPath />
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <ProjectTypeGuids>{888888a0-9f3d-457c-b088-3a5042f75d52}</ProjectTypeGuids>
+    <LaunchProvider>Standard Python launcher</LaunchProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'Debug'" />
+  <PropertyGroup Condition="'$(Configuration)' == 'Release'" />
+  <PropertyGroup>
+    <VisualStudioVersion Condition=" '$(VisualStudioVersion)' == '' ">10.0</VisualStudioVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="alien_invasion\alien_invasion.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="alien_invasion\game_functions.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="alien_invasion\settings.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="alien_invasion\ship.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Chapter 10\alice.py" />
+    <Compile Include="Chapter 10\cats_and_dogs.py" />
+    <Compile Include="Chapter 10\division.py" />
+    <Compile Include="Chapter 10\fav_num.py" />
+    <Compile Include="Chapter 10\file_reader.py" />
+    <Compile Include="Chapter 10\greet_user.py" />
+    <Compile Include="Chapter 10\guest.py" />
+    <Compile Include="Chapter 10\learning_python.py" />
+    <Compile Include="Chapter 10\number_reader.py" />
+    <Compile Include="Chapter 10\number_writer.py" />
+    <Compile Include="Chapter 10\remember_me.py" />
+    <Compile Include="Chapter 10\replace_func.py" />
+    <Compile Include="Chapter 10\word_count.py" />
+    <Compile Include="Chapter 10\write_message.py" />
+    <Compile Include="Chapter 11\city_functions.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Chapter 11\employee.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Chapter 11\language_survey.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Chapter 11\names.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Chapter 11\name_function.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Chapter 11\survey.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Chapter 11\test.cities.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Chapter 11\test_employee.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Chapter 11\test_survey.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="python_work\9-11.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="python_work\9-13.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="python_work\admin_pri.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="python_work\car.py" />
+    <Compile Include="python_work\cars.py" />
+    <Compile Include="python_work\electric_car.py" />
+    <Compile Include="python_work\favorite_languages.py" />
+    <Compile Include="python_work\file_reader.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="python_work\formatted_name.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="python_work\greeter.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="python_work\hello_admin.py" />
+    <Compile Include="python_work\hello_world.py" />
+    <Compile Include="python_work\magicians.py" />
+    <Compile Include="python_work\magic_number.py" />
+    <Compile Include="python_work\making_pizzas.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="python_work\motorcycles.py" />
+    <Compile Include="python_work\motorcycles1.py" />
+    <Compile Include="python_work\mountain_poll.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="python_work\my_car.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="python_work\my_cars.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="python_work\my_electric_car.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="python_work\name.py" />
+    <Compile Include="python_work\name_cases.py" />
+    <Compile Include="python_work\numbers.py" />
+    <Compile Include="python_work\parrot.py" />
+    <Compile Include="python_work\person.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="python_work\pets.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="python_work\pizza.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="python_work\pizzas.py" />
+    <Compile Include="python_work\place.py" />
+    <Compile Include="python_work\players.py" />
+    <Compile Include="python_work\printing_models.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="python_work\random.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="python_work\restaurant.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="python_work\rollercoaster.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="python_work\simple_message.py" />
+    <Compile Include="python_work\simple_messages.py" />
+    <Compile Include="python_work\squares.py" />
+    <Compile Include="python_work\test.py" />
+    <Compile Include="python_work\9-10.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="python_work\9-6.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="python_work\toppings.py" />
+    <Compile Include="python_work\user.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="python_work\user_profile.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="python_work\voting.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Chapter 10\" />
+    <Folder Include="Chapter 10\" />
+    <Folder Include="Chapter 11\" />
+    <Folder Include="alien_invasion\" />
+    <Folder Include="python_work" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Chapter 10\fav_no.txt" />
+    <Content Include="Chapter 10\guest.txt" />
+    <Content Include="Chapter 10\guest_book.txt" />
+    <Content Include="Chapter 10\learning_python.txt" />
+    <Content Include="Chapter 10\pi_digits.txt" />
+    <Content Include="Chapter 10\pi_million_digits.txt" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
+</Project>
